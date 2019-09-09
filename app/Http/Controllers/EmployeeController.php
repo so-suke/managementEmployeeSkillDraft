@@ -91,8 +91,8 @@ class EmployeeController extends Controller
             ->with('experiencePeriod')
             ->get();
 
-        $languages = Language::get();
-        $frameworks = Framework::get();
+        $languages = Language::orderBy('name', 'asc')->get();
+        $frameworks = Framework::orderBy('name', 'asc')->get();
         $experiencePeriods = ExperiencePeriod::get();
         return view('employee', compact('employee', 'languageExperiences', 'languages', 'frameworks', 'experiencePeriods'));
     }
