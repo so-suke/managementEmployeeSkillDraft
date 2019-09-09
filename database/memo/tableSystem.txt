@@ -1,0 +1,39 @@
+languages
+name
+java, javascript, python, php
+
+experience_periods
+name
+半年未満
+半年から1年
+1年から2年
+2年から3年
+3年以上
+
+user_language_experience_periods
+対象社員の言語と経験期間の組み合わせを取得
+$language_experiences = [
+  {
+    language: 'java',
+    period: '半年未満'
+  },
+  {
+    language: 'javascript',
+    period: '半年から1年'
+  }
+];
+
+///// RUN
+
+php artisan make:model Language
+php artisan make:factory EmployeeFactory
+
+php artisan make:migration create_employees_table
+php artisan make:migration create_languages_table
+php artisan make:migration create_experience_periods_table
+php artisan make:migration create_language_experiences_table
+
+php artisan make:seeder EmployeesTableSeeder
+php artisan make:seeder LanguagesTableSeeder
+php artisan make:seeder ExperiencePeriodsTableSeeder
+php artisan make:seeder LanguageExperiencesTableSeeder

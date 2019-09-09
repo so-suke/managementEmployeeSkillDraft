@@ -1,0 +1,40 @@
+言語削除機能21(56)
+  言語アイコン表示10
+  クリック、削除idをajaxで飛ばす5
+  phpでidから削除経験言語を取得し、それを削除6
+    成功メッセージ返却
+    トーストメッセージ表示5(44)
+
+フレームワークリスト追加40
+  migration作成10
+    framework, frameworkExperience
+  seeding作成10
+  model作成5
+  front,back20
+    languageと同じ様に作る
+その他ツールリスト追加15
+
+php artisan make:migration create_frameworks_table
+php artisan make:migration create_framework_experiences_table
+php artisan make:seeder FrameworksTableSeeder
+php artisan make:seeder FrameworkExperiencesTableSeeder
+php artisan make:model Framework
+php artisan make:model FrameworkExperience
+
+php artisan make:controller API/FrameworkExperienceController --api --resource
+create: routing
+
+５hunn作成立てる
+各社員ログイン出来るようにする
+社員詳細ページ作成
+管理人、一般のアクセスを分ける
+  初回アクセス
+    管理人、社員一覧
+    一般、詳細
+管理人
+  スキル追加ページ
+  社員新規作成ページ
+
+
+todo
+右からスライドインする通知を作る

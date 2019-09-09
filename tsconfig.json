@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    // "resources/**/*.ts",
+    "resources/ts/*.ts",
+    "resources/ts/store/*.ts",
+    "resources/ts/store/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
