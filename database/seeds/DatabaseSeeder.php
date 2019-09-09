@@ -16,6 +16,8 @@ class DatabaseSeeder extends Seeder
             LanguagesTableSeeder::class,
             ExperiencePeriodsTableSeeder::class,
             LanguageExperiencesTableSeeder::class,
+            FrameworksTableSeeder::class,
+            FrameworkExperiencesTableSeeder::class,
         ]);
     }
 }

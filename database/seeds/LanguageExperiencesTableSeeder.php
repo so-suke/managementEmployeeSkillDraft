@@ -18,9 +18,8 @@ class LanguageExperiencesTableSeeder extends Seeder
         $languageExperiences = [];
         $employees = Employee::orderBy('id')->get('id');
         $languages = Language::orderBy('id')->get('id');
-        $languagesShuffled = $languages->shuffle();
-        $languagesSliced = $languagesShuffled->slice(0, rand(1, 3));
         foreach ($employees as $key => $employee) {
+            $languagesSliced = $languages->shuffle()->slice(0, rand(1, 3));
             foreach ($languagesSliced as $key => $language) {
                 $languageExperiences[] = ['employee_id' => $employee->id, 'language_id' => $language->id, 'experience_period_id' => rand(1, 5)];
             }
