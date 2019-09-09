@@ -17,7 +17,7 @@ class FrameworkExperience extends Model
 
     public function framework()
     {
-        return $this->hasOne('App\Language', 'id', 'framework_id');
+        return $this->hasOne('App\Framework', 'id', 'framework_id');
     }
 
     public function experiencePeriod()
