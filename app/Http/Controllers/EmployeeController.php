@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Employee;
 use App\ExperiencePeriod;
+use App\Framework;
 use App\Language;
 use App\LanguageExperience;
 use Illuminate\Http\Request;
@@ -67,7 +68,7 @@ class EmployeeController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * 社員詳細ページへ遷移
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -91,8 +92,9 @@ class EmployeeController extends Controller
             ->get();
 
         $languages = Language::get();
+        $frameworks = Framework::get();
         $experiencePeriods = ExperiencePeriod::get();
-        return view('employee', compact('employee', 'languageExperiences', 'languages', 'experiencePeriods'));
+        return view('employee', compact('employee', 'languageExperiences', 'languages', 'frameworks', 'experiencePeriods'));
     }
 
     /**
