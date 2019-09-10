@@ -56,7 +56,7 @@ export default class ExampleComponent extends Vue {
   languageExperiences: any[] = [];
   frameworkExperiences: any[] = [];
 
-  skillKind: any = {
+  readonly skillKind: any = {
     language: {
       en: "language",
       jp: "言語"
@@ -66,15 +66,6 @@ export default class ExampleComponent extends Vue {
       jp: "フレームワーク"
     }
   };
-
-  readonly experienceSkillKindNames: any = {
-    language: "language",
-    framework: "framework"
-  };
-
-  // 追加オプションの表示切り替え
-  canAppendSkillLanguage: boolean = false;
-  canAppendSkillFramework: boolean = false;
 
   readonly experiencePeriods = [
     { id: 1, name: "半年未満" },
@@ -87,13 +78,6 @@ export default class ExampleComponent extends Vue {
   @Prop() protected pathIconTrash!: any;
   @Prop() protected languages!: any;
   @Prop() protected frameworks!: any;
-
-  private enableAppendSkillLanguage() {
-    this.canAppendSkillLanguage = true;
-  }
-  private enableAppendSkillFramework() {
-    this.canAppendSkillFramework = true;
-  }
 
   private deleteExperience(id: number, pathDelete: string) {
     window.axios
@@ -175,7 +159,7 @@ export default class ExampleComponent extends Vue {
       payload.refSelectSkill as HTMLSelectElement,
       payload.refSelectExperiencePeriod as HTMLSelectElement,
       this.languageExperiences,
-      this.experienceSkillKindNames.language,
+      this.skillKind.language.en,
       `/api/languageExperiences`
     );
   }
@@ -185,47 +169,9 @@ export default class ExampleComponent extends Vue {
       payload.refSelectSkill as HTMLSelectElement,
       payload.refSelectExperiencePeriod as HTMLSelectElement,
       this.frameworkExperiences,
-      this.experienceSkillKindNames.framework,
+      this.skillKind.framework.en,
       `/api/frameworkExperiences`
     );
-    return;
-    const choosedFrameworkId = (this.$refs.selectFramework as any).value;
-    const choosedExperiencePeriodId = (this.$refs
-      .selectExperiencePeriodFramework as any).value;
-    if (choosedFrameworkId === "" || choosedExperiencePeriodId === "") {
-      console.warn("あれ?フレームワークまたは期間が入力されてない...");
-      return;
-    }
-    const hasExperinceFramework = this.frameworkExperiences.some(
-      frameworkExperience => {
-        return (
-          parseInt(frameworkExperience.framework.id) ===
-          parseInt(choosedFrameworkId)
-        );
-      }
-    );
-    if (hasExperinceFramework) {
-      console.warn("フレームワークが重複しています。");
-      return;
-    }
-    const params = new URLSearchParams();
-    params.append("employee_id", this.getEmployeeIdFromUrl());
-    params.append("framework_id", choosedFrameworkId);
-    params.append("experience_period_id", choosedExperiencePeriodId);
-    window.axios
-      .post(`/api/frameworkExperiences`, params)
-      .then(response => {
-        console.log(response);
-        // js側で全て読み込み直し
-        this.getInitDatas();
-        // 入力を元に戻す。
-        (this.$refs.selectFramework as HTMLSelectElement).selectedIndex = 0;
-        (this.$refs
-          .selectExperiencePeriodFramework as HTMLSelectElement).selectedIndex = 0;
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
   }
 
   private getEmployeeIdFromUrl(): string {
@@ -259,67 +205,8 @@ export default class ExampleComponent extends Vue {
 <style lang="scss" scoped>
 @import "~@/variables/_variables.scss";
 
-img.iconTrash {
-  width: 20px;
-  cursor: pointer;
-}
-
 .vue-notification {
   padding: 32px 10px;
 }
 
-.skills {
-  &__title {
-    font-size: 1.75rem;
-  }
-}
-
-.skill {
-  &__title {
-    font-size: 1.5rem;
-  }
-}
-ul.skillColumns {
-  margin-bottom: 8px;
-  li {
-    .header {
-      display: flex;
-      align-items: center;
-      .languageName {
-        margin-right: 8px;
-      }
-    }
-  }
-}
-
-ul.skillChooses {
-  li {
-    display: inline-block;
-  }
-}
-
-.skillAppend {
-  border: 1px solid $colorBorderGray;
-  border-radius: 5px;
-  padding: 8px;
-
-  &--selections {
-    display: flex;
-    select {
-      margin-right: 8px;
-    }
-  }
-
-  &--form {
-    display: flex;
-    select {
-      margin-right: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      &.error {
-        border: 1px solid #ff0000;
-      }
-    }
-  }
-}
 </style>
