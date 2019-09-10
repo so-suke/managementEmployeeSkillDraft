@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\API;
 
+use App\FrameworkExperience;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -25,7 +26,11 @@ class FrameworkExperienceController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        FrameworkExperience::create($request->all());
+
+        return response()->json([
+            'message' => 'success store.'
+        ]);
     }
 
     /**
@@ -36,7 +41,20 @@ class FrameworkExperienceController extends Controller
      */
     public function show($id)
     {
-        //
+        // $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
+        //     ->with('framework')
+        //     ->orderBy('framework.name', 'asc')
+        //     ->with('experiencePeriod')
+        //     ->toSql();
+        // Log::debug($frameworkExperiences);
+        $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
+            ->with('framework')
+            ->with('experiencePeriod')
+            ->get();
+
+        return response()->json([
+            'frameworkExperiences' => $frameworkExperiences
+        ]);
     }
 
     /**
@@ -57,8 +75,11 @@ class FrameworkExperienceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(FrameworkExperience $frameworkExperience)
     {
-        //
+        $frameworkExperience->delete();
+        return response()->json([
+            'message' => 'success destroy.'
+        ]);
     }
 }

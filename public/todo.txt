@@ -5,7 +5,7 @@
     成功メッセージ返却
     トーストメッセージ表示5(44)
 
-フレームワークリスト追加40
+フレームワークリスト追加1h54m
   migration作成10
     framework, frameworkExperience
   seeding作成10
@@ -23,6 +23,9 @@ php artisan make:model FrameworkExperience
 
 php artisan make:controller API/FrameworkExperienceController --api --resource
 create: routing
+
+v重なった関数の整理
+コンポーネント化15
 
 ５hunn作成立てる
 各社員ログイン出来るようにする

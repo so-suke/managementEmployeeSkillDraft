@@ -15,9 +15,7 @@ class LanguageExperienceController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-
-    }
+    { }
 
     /**
      * Store a newly created resource in storage.
@@ -27,7 +25,6 @@ class LanguageExperienceController extends Controller
      */
     public function store(Request $request)
     {
-        // php側で書き込む、成功メッセージ送り返す
         LanguageExperience::create($request->all());
 
         return response()->json([
@@ -44,6 +41,7 @@ class LanguageExperienceController extends Controller
     public function show($id)
     {
         $languageExperiences = LanguageExperience::where('employee_id', $id)
+            ->orderBy('language_id', 'asc')
             ->with('language')
             ->with('experiencePeriod')
             ->get();

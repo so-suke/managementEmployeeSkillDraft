@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Employee;
+use App\FrameworkExperience;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\LanguageExperience;
@@ -57,9 +58,17 @@ class EmployeeController extends Controller
             ->with('experiencePeriod')
             ->get();
 
+        $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
+            ->join('frameworks', 'frameworks.id', '=', 'framework_experiences.framework_id')
+            ->orderBy('frameworks.name', 'asc')
+            ->with('framework')
+            ->with('experiencePeriod')
+            ->get();
+
         return response()->json([
             'employee' => $employee,
-            'languageExperiences' => $languageExperiences
+            'languageExperiences' => $languageExperiences,
+            'frameworkExperiences' => $frameworkExperiences
         ]);
     }
 

@@ -9,6 +9,7 @@ use App\Language;
 use App\LanguageExperience;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Log;
 
 class EmployeeController extends Controller
 {
@@ -86,15 +87,9 @@ class EmployeeController extends Controller
             )
         )->where('id', $id)->first();
 
-        $languageExperiences = LanguageExperience::where('employee_id', $id)
-            ->with('language')
-            ->with('experiencePeriod')
-            ->get();
-
         $languages = Language::orderBy('name', 'asc')->get();
         $frameworks = Framework::orderBy('name', 'asc')->get();
-        $experiencePeriods = ExperiencePeriod::get();
-        return view('employee', compact('employee', 'languageExperiences', 'languages', 'frameworks', 'experiencePeriods'));
+        return view('employee', compact('employee', 'languages', 'frameworks'));
     }
 
     /**

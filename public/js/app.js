@@ -1863,7 +1863,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "img.iconTrash[data-v-2553b51e] {\n  width: 20px;\n  cursor: pointer;\n}\n.vue-notification[data-v-2553b51e] {\n  padding: 32px 10px;\n}\n.skills__title[data-v-2553b51e] {\n  font-size: 1.75rem;\n}\n.skill__title[data-v-2553b51e] {\n  font-size: 1.5rem;\n}\nul.skillColumns[data-v-2553b51e] {\n  margin-bottom: 8px;\n}\nul.skillColumns li .header[data-v-2553b51e] {\n  display: flex;\n  align-items: center;\n}\nul.skillColumns li .header .languageName[data-v-2553b51e] {\n  margin-right: 8px;\n}\nul.skillChooses li[data-v-2553b51e] {\n  display: inline-block;\n}\n.skillAppend[data-v-2553b51e] {\n  border: 1px solid #bbbaba;\n  border-radius: 5px;\n  padding: 8px;\n}\n.skillAppend--selections[data-v-2553b51e] {\n  display: flex;\n}\n.skillAppend--selections select[data-v-2553b51e] {\n  margin-right: 8px;\n}\n.skillAppend--form[data-v-2553b51e] {\n  display: flex;\n}\n.skillAppend--form select[data-v-2553b51e] {\n  margin-right: 8px;\n}", ""]);
+exports.push([module.i, "img.iconTrash[data-v-2553b51e] {\n  width: 20px;\n  cursor: pointer;\n}\n.vue-notification[data-v-2553b51e] {\n  padding: 32px 10px;\n}\n.skills__title[data-v-2553b51e] {\n  font-size: 1.75rem;\n}\n.skill__title[data-v-2553b51e] {\n  font-size: 1.5rem;\n}\nul.skillColumns[data-v-2553b51e] {\n  margin-bottom: 8px;\n}\nul.skillColumns li .header[data-v-2553b51e] {\n  display: flex;\n  align-items: center;\n}\nul.skillColumns li .header .languageName[data-v-2553b51e] {\n  margin-right: 8px;\n}\nul.skillChooses li[data-v-2553b51e] {\n  display: inline-block;\n}\n.skillAppend[data-v-2553b51e] {\n  border: 1px solid #bbbaba;\n  border-radius: 5px;\n  padding: 8px;\n}\n.skillAppend--selections[data-v-2553b51e] {\n  display: flex;\n}\n.skillAppend--selections select[data-v-2553b51e] {\n  margin-right: 8px;\n}\n.skillAppend--form[data-v-2553b51e] {\n  display: flex;\n}\n.skillAppend--form select[data-v-2553b51e] {\n  margin-right: 8px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n}\n.skillAppend--form select.error[data-v-2553b51e] {\n  border: 1px solid #ff0000;\n}", ""]);
 
 // exports
 
@@ -1883,6 +1883,44 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, ".employees[data-v-7dc5d459] {\n  width: 40%;\n  margin: 0 auto;\n}\n.employees li[data-v-7dc5d459] {\n  cursor: pointer;\n}\n.employees li[data-v-7dc5d459]:hover {\n  background-color: #fbfb82;\n}\n.employee[data-v-7dc5d459] {\n  margin-bottom: 8px;\n  border: 1.5px solid;\n  border-radius: 5px;\n  padding: 8px;\n}\n.employee--male[data-v-7dc5d459] {\n  border-color: #3d7e9a;\n}\n.employee--female[data-v-7dc5d459] {\n  border-color: #D9777F;\n}\n.employee span[data-v-7dc5d459] {\n  display: inline-block;\n}\n.employee span.name_last[data-v-7dc5d459] {\n  width: 120px;\n}\n.employee span.name_last_kana[data-v-7dc5d459] {\n  width: 200px;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/dist/cjs.js??ref--9-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/dist/cjs.js??ref--9-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "img.iconTrash[data-v-4eff1a5c] {\n  width: 20px;\n  cursor: pointer;\n}\n.skills__title[data-v-4eff1a5c] {\n  font-size: 1.75rem;\n}\n.skill__title[data-v-4eff1a5c] {\n  font-size: 1.5rem;\n}\nul.skillColumns[data-v-4eff1a5c] {\n  margin-bottom: 8px;\n}\nul.skillColumns li .header[data-v-4eff1a5c] {\n  display: flex;\n  align-items: center;\n}\nul.skillColumns li .header .languageName[data-v-4eff1a5c] {\n  margin-right: 8px;\n}\nul.skillChooses li[data-v-4eff1a5c] {\n  display: inline-block;\n}\n.skillAppend[data-v-4eff1a5c] {\n  border: 1px solid #bbbaba;\n  border-radius: 5px;\n  padding: 8px;\n}\n.skillAppend--selections[data-v-4eff1a5c] {\n  display: flex;\n}\n.skillAppend--selections select[data-v-4eff1a5c] {\n  margin-right: 8px;\n}\n.skillAppend--form[data-v-4eff1a5c] {\n  display: flex;\n}\n.skillAppend--form select[data-v-4eff1a5c] {\n  margin-right: 8px;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n}\n.skillAppend--form select.error[data-v-4eff1a5c] {\n  border: 1px solid #ff0000;\n}", ""]);
 
 // exports
 
@@ -2422,6 +2460,66 @@ options.transform = transform
 options.insertInto = undefined;
 
 var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/dist/cjs.js??ref--9-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--9-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--9-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--9-2!./node_modules/sass-loader/dist/cjs.js??ref--9-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--9-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--9-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -3031,6 +3129,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const vue_property_decorator_1 = __webpack_require__(/*! vue-property-decorator */ "./node_modules/vue-property-decorator/lib/vue-property-decorator.js");
 const Option_1 = __webpack_require__(/*! ../store/module/Option */ "./resources/ts/store/module/Option.ts");
+const SkillComponent_vue_1 = __webpack_require__(/*! ./parts/SkillComponent.vue */ "./resources/ts/components/parts/SkillComponent.vue");
 let ExampleComponent = class ExampleComponent extends vue_property_decorator_1.Vue {
     constructor() {
         super(...arguments);
@@ -3038,7 +3137,18 @@ let ExampleComponent = class ExampleComponent extends vue_property_decorator_1.V
         this.employees = [];
         this.employee = {};
         this.languageExperiences = [];
+        this.frameworkExperiences = [];
+        this.toJpMap = new Map([
+            ["language", "言語"],
+            ["framework", "フレームワーク"]
+        ]);
+        this.experienceSkillKindNames = {
+            language: "language",
+            framework: "framework"
+        };
+        // 追加オプションの表示切り替え
         this.canAppendSkillLanguage = false;
+        this.canAppendSkillFramework = false;
         this.experiencePeriods = [
             { id: 1, name: "半年未満" },
             { id: 2, name: "半年から1年" },
@@ -3050,59 +3160,103 @@ let ExampleComponent = class ExampleComponent extends vue_property_decorator_1.V
     enableAppendSkillLanguage() {
         this.canAppendSkillLanguage = true;
     }
-    deleteLanguageExperience(languageExperienceID) {
-        console.log("delete langu expe" + languageExperienceID);
-        this.$notify({
-            group: "manipulation",
-            title: "Success Delete Language Expression",
-            type: "success",
-            duration: 15000,
-        });
-        return;
+    enableAppendSkillFramework() {
+        this.canAppendSkillFramework = true;
+    }
+    deleteExperience(id, url) {
         window.axios
-            .delete(`/api/languageExperiences/${languageExperienceID}`)
+            .delete(`/api/languageExperiences/${id}`)
             .then(response => {
             // とりあえずメッセージ見る
             console.log(response);
+            this.$notify({
+                group: "manipulation",
+                type: "success",
+                title: "Success Delete Language Expression",
+                text: response.message
+            });
             // 最後、全て読み込み直し
-            this.getLanguageExperiences();
+            this.getInitDatas();
         })
             .catch(function (error) {
             console.log(error);
         });
     }
-    appendSkillLanguage() {
-        const choosedLanguageID = this.$refs.selectionLanguageID.value;
-        const choosedExperiencePeriodID = this.$refs
-            .selectionExperiencePeriodID.value;
-        console.log(choosedLanguageID);
-        // todo tryCatch
-        if (choosedLanguageID === "" || choosedExperiencePeriodID === "") {
-            console.warn("あれ?言語または期間が入力されてない...");
+    deleteExperienceLanguage(id) {
+        this.deleteExperience(id, `/api/languageExperiences/${id}`);
+    }
+    deleteExperienceFramework(id) {
+        this.deleteExperience(id, `/api/frameworkExperiences/${id}`);
+    }
+    appendSkill(refSelectSkill, refSelectExperiencePeriod, experiences, experienceSkillKindName, storePath) {
+        const choosedSkillId = refSelectSkill.value;
+        const choosedExperiencePeriodId = refSelectExperiencePeriod.value;
+        if (choosedSkillId === "" || choosedExperiencePeriodId === "") {
+            refSelectSkill.classList.add("error");
+            refSelectExperiencePeriod.classList.add("error");
+            console.warn(`あれ?${this.toJpMap.get(experienceSkillKindName)}または期間が入力されてない...`);
             return;
         }
-        const hasLanguage = this.languageExperiences.some(languageExperience => {
-            return (parseInt(languageExperience.language.id) === parseInt(choosedLanguageID));
+        const hasExperince = experiences.some(experiences => {
+            return (parseInt(experiences[experienceSkillKindName].id) ===
+                parseInt(choosedSkillId));
         });
-        if (hasLanguage) {
-            console.warn("言語が重複しています。");
+        if (hasExperince) {
+            console.warn("経験が重複しています。");
             return;
         }
-        // データを送る,employee_id,language_id,experience_period_id
         const params = new URLSearchParams();
         params.append("employee_id", this.getEmployeeIdFromUrl());
-        params.append("language_id", choosedLanguageID);
-        params.append("experience_period_id", choosedExperiencePeriodID);
+        params.append(`${experienceSkillKindName}_id`, choosedSkillId);
+        params.append("experience_period_id", choosedExperiencePeriodId);
         window.axios
-            .post(`/api/languageExperiences`, params)
+            .post(storePath, params)
+            .then(response => {
+            // js側で全て読み込み直し
+            this.getInitDatas();
+            // 入力を元に戻す。
+            refSelectSkill.selectedIndex = 0;
+            refSelectExperiencePeriod.selectedIndex = 0;
+        })
+            .catch(function (error) {
+            console.log(error);
+        });
+    }
+    appendSkillLanguage(payload) {
+        this.appendSkill(payload.refSelectSkill, payload.refSelectExperiencePeriod, this.languageExperiences, this.experienceSkillKindNames.language, `/api/languageExperiences`);
+    }
+    appendSkillFramework() {
+        this.appendSkill(this.$refs.selectFramework, this.$refs.selectExperiencePeriodFramework, this.frameworkExperiences, this.experienceSkillKindNames.framework, `/api/frameworkExperiences`);
+        return;
+        const choosedFrameworkId = this.$refs.selectFramework.value;
+        const choosedExperiencePeriodId = this.$refs
+            .selectExperiencePeriodFramework.value;
+        if (choosedFrameworkId === "" || choosedExperiencePeriodId === "") {
+            console.warn("あれ?フレームワークまたは期間が入力されてない...");
+            return;
+        }
+        const hasExperinceFramework = this.frameworkExperiences.some(frameworkExperience => {
+            return (parseInt(frameworkExperience.framework.id) ===
+                parseInt(choosedFrameworkId));
+        });
+        if (hasExperinceFramework) {
+            console.warn("フレームワークが重複しています。");
+            return;
+        }
+        const params = new URLSearchParams();
+        params.append("employee_id", this.getEmployeeIdFromUrl());
+        params.append("framework_id", choosedFrameworkId);
+        params.append("experience_period_id", choosedExperiencePeriodId);
+        window.axios
+            .post(`/api/frameworkExperiences`, params)
             .then(response => {
             console.log(response);
             // js側で全て読み込み直し
-            this.getLanguageExperiences();
+            this.getInitDatas();
             // 入力を元に戻す。
-            this.$refs.selectionLanguageID.selectedIndex = 0;
+            this.$refs.selectFramework.selectedIndex = 0;
             this.$refs
-                .selectionExperiencePeriodID.selectedIndex = 0;
+                .selectExperiencePeriodFramework.selectedIndex = 0;
         })
             .catch(function (error) {
             console.log(error);
@@ -3115,23 +3269,13 @@ let ExampleComponent = class ExampleComponent extends vue_property_decorator_1.V
         this.getInitDatas();
     }
     getInitDatas() {
-        const employeeID = this.getEmployeeIdFromUrl();
+        const employeeId = this.getEmployeeIdFromUrl();
         window.axios
-            .get(`/api/employees/${employeeID}`)
+            .get(`/api/employees/${employeeId}`)
             .then(response => {
             this.employee = response.data.employee;
             this.languageExperiences = response.data.languageExperiences;
-        })
-            .catch(function (error) {
-            console.log(error);
-        });
-    }
-    getLanguageExperiences() {
-        const employeeID = this.getEmployeeIdFromUrl();
-        window.axios
-            .get(`/api/languageExperiences/${employeeID}`)
-            .then(response => {
-            this.languageExperiences = response.data.languageExperiences;
+            this.frameworkExperiences = response.data.frameworkExperiences;
         })
             .catch(function (error) {
             console.log(error);
@@ -3147,8 +3291,15 @@ __decorate([
 __decorate([
     vue_property_decorator_1.Prop()
 ], ExampleComponent.prototype, "languages", void 0);
+__decorate([
+    vue_property_decorator_1.Prop()
+], ExampleComponent.prototype, "frameworks", void 0);
 ExampleComponent = __decorate([
-    vue_property_decorator_1.Component
+    vue_property_decorator_1.Component({
+        components: {
+            SkillComponent: SkillComponent_vue_1.default
+        }
+    })
 ], ExampleComponent);
 exports.default = ExampleComponent;
 
@@ -3197,6 +3348,65 @@ ExampleComponent = __decorate([
     vue_property_decorator_1.Component
 ], ExampleComponent);
 exports.default = ExampleComponent;
+
+
+/***/ }),
+
+/***/ "./node_modules/ts-loader/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=script&lang=ts&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/ts-loader??ref--5!./node_modules/vue-loader/lib??vue-loader-options!./resources/ts/components/parts/SkillComponent.vue?vue&type=script&lang=ts& ***!
+  \**********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const vue_property_decorator_1 = __webpack_require__(/*! vue-property-decorator */ "./node_modules/vue-property-decorator/lib/vue-property-decorator.js");
+let SkillComponent = class SkillComponent extends vue_property_decorator_1.Vue {
+    constructor() {
+        super(...arguments);
+        this.experiencePeriods = [
+            { id: 1, name: "半年未満" },
+            { id: 2, name: "半年から1年" },
+            { id: 3, name: "1年から2年" },
+            { id: 4, name: "2年から3年" },
+            { id: 5, name: "3年以上" }
+        ];
+        this.canAppendSkill = false;
+    }
+    enableAppendSkill() {
+        this.canAppendSkill = true;
+    }
+    appendSkill() {
+        return {
+            refSelectSkill: this.$refs.selectSkill,
+            refSelectExperiencePeriod: this.$refs.selectExperiencePeriod
+        };
+    }
+};
+__decorate([
+    vue_property_decorator_1.Prop()
+], SkillComponent.prototype, "experiences", void 0);
+__decorate([
+    vue_property_decorator_1.Prop()
+], SkillComponent.prototype, "kindName", void 0);
+__decorate([
+    vue_property_decorator_1.Prop()
+], SkillComponent.prototype, "skills", void 0);
+__decorate([
+    vue_property_decorator_1.Emit("appendSkill")
+], SkillComponent.prototype, "appendSkill", null);
+SkillComponent = __decorate([
+    vue_property_decorator_1.Component
+], SkillComponent);
+exports.default = SkillComponent;
 
 
 /***/ }),
@@ -3561,169 +3771,352 @@ var render = function() {
       _vm._v(" "),
       _c("hr"),
       _vm._v(" "),
-      _c("div", { staticClass: "skills" }, [
-        _c("h2", { staticClass: "skills__title" }, [_vm._v("スキル一覧")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "skill" }, [
-          _c("h3", { staticClass: "skill__title" }, [_vm._v("言語")]),
+      _c(
+        "div",
+        { staticClass: "skills" },
+        [
+          _c("h2", { staticClass: "skills__title" }, [_vm._v("スキル一覧")]),
           _vm._v(" "),
-          _c(
-            "ul",
-            { staticClass: "skillColumns" },
-            _vm._l(_vm.languageExperiences, function(languageExperience) {
-              return _c("li", { key: languageExperience.id }, [
-                _c("div", { staticClass: "header" }, [
-                  _c("p", { staticClass: "languageName" }, [
-                    _vm._v(_vm._s(languageExperience.language.name))
-                  ]),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "iconTrash",
-                    attrs: { src: "/images/trash_icon.png", alt: "iconTrash" },
-                    on: {
-                      click: function($event) {
-                        return _vm.deleteLanguageExperience(
-                          languageExperience.id
-                        )
-                      }
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c(
-                  "ul",
-                  { staticClass: "skillChooses" },
-                  _vm._l(_vm.experiencePeriods, function(experiencePeriod) {
-                    return _c("li", { key: experiencePeriod.id }, [
-                      _c("input", {
-                        attrs: {
-                          type: "radio",
-                          id: "experience_period_" + experiencePeriod.id,
-                          name:
-                            "experience_period_" +
-                            languageExperience.language.name
-                        },
-                        domProps: {
-                          value: "" + experiencePeriod.id,
-                          checked:
-                            experiencePeriod.id ==
-                            languageExperience.experience_period_id
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c(
-                        "label",
-                        {
-                          attrs: {
-                            for: "experience_period_" + experiencePeriod.id
-                          }
-                        },
-                        [_vm._v(_vm._s(experiencePeriod.name))]
-                      )
-                    ])
-                  }),
-                  0
-                )
-              ])
-            }),
-            0
-          ),
+          _c("skill-component", {
+            attrs: {
+              experiences: _vm.languageExperiences,
+              kindName: "言語",
+              skills: _vm.languages
+            },
+            on: { appendSkill: _vm.appendSkillLanguage }
+          }),
           _vm._v(" "),
-          _c("div", { staticClass: "switch" }, [
-            _c(
-              "button",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: !_vm.canAppendSkillLanguage,
-                    expression: "!canAppendSkillLanguage"
-                  }
-                ],
-                on: { click: _vm.enableAppendSkillLanguage }
-              },
-              [_vm._v("+言語を追加する")]
-            ),
+          _c("section", { staticClass: "skill" }, [
+            _c("h3", { staticClass: "skill__title" }, [_vm._v("言語")]),
             _vm._v(" "),
             _c(
-              "div",
-              {
-                directives: [
-                  {
-                    name: "show",
-                    rawName: "v-show",
-                    value: _vm.canAppendSkillLanguage,
-                    expression: "canAppendSkillLanguage"
-                  }
-                ],
-                staticClass: "skillAppend"
-              },
-              [
-                _c("p", { staticClass: "skillAppend--title" }, [
-                  _vm._v("言語の追加")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "skillAppend--form" }, [
-                  _c(
-                    "select",
-                    {
-                      ref: "selectionLanguageID",
-                      attrs: { name: "choosedLanguageID" }
-                    },
-                    [
-                      _c("option", { attrs: { value: "" } }, [
-                        _vm._v("言語を選択してください")
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.languages, function(language) {
-                        return _c(
-                          "option",
-                          {
-                            key: language.id,
-                            domProps: { value: "" + language.id }
-                          },
-                          [_vm._v(_vm._s(language.name))]
-                        )
-                      })
-                    ],
-                    2
-                  ),
+              "ul",
+              { staticClass: "skillColumns" },
+              _vm._l(_vm.languageExperiences, function(languageExperience) {
+                return _c("li", { key: languageExperience.id }, [
+                  _c("div", { staticClass: "header" }, [
+                    _c("p", { staticClass: "languageName" }, [
+                      _vm._v(_vm._s(languageExperience.language.name))
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "iconTrash",
+                      attrs: {
+                        src: "/images/trash_icon.png",
+                        alt: "iconTrash"
+                      },
+                      on: {
+                        click: function($event) {
+                          return _vm.deleteExperienceLanguage(
+                            languageExperience.id
+                          )
+                        }
+                      }
+                    })
+                  ]),
                   _vm._v(" "),
                   _c(
-                    "select",
-                    {
-                      ref: "selectionExperiencePeriodID",
-                      attrs: { name: "choosedExperiencePeriodID" }
-                    },
-                    [
-                      _c("option", { attrs: { value: "" } }, [
-                        _vm._v("期間を選択してください")
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.experiencePeriods, function(experiencePeriod) {
-                        return _c(
-                          "option",
+                    "ul",
+                    { staticClass: "skillChooses" },
+                    _vm._l(_vm.experiencePeriods, function(experiencePeriod) {
+                      return _c("li", { key: experiencePeriod.id }, [
+                        _c("input", {
+                          attrs: {
+                            type: "radio",
+                            id: "experience_period_" + experiencePeriod.id,
+                            name:
+                              "experience_period_" +
+                              languageExperience.language.name
+                          },
+                          domProps: {
+                            value: "" + experiencePeriod.id,
+                            checked:
+                              experiencePeriod.id ==
+                              languageExperience.experience_period_id
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "label",
                           {
-                            key: experiencePeriod.id,
-                            domProps: { value: "" + experiencePeriod.id }
+                            attrs: {
+                              for: "experience_period_" + experiencePeriod.id
+                            }
                           },
                           [_vm._v(_vm._s(experiencePeriod.name))]
                         )
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c("button", { on: { click: _vm.appendSkillLanguage } }, [
-                    _vm._v("追加")
-                  ])
+                      ])
+                    }),
+                    0
+                  )
                 ])
-              ]
-            )
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "switch" }, [
+              _c(
+                "button",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: !_vm.canAppendSkillLanguage,
+                      expression: "!canAppendSkillLanguage"
+                    }
+                  ],
+                  on: { click: _vm.enableAppendSkillLanguage }
+                },
+                [_vm._v("+言語を追加する")]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.canAppendSkillLanguage,
+                      expression: "canAppendSkillLanguage"
+                    }
+                  ],
+                  staticClass: "skillAppend"
+                },
+                [
+                  _c("p", { staticClass: "skillAppend--title" }, [
+                    _vm._v("言語の追加")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "skillAppend--form" }, [
+                    _c(
+                      "select",
+                      {
+                        ref: "selectLanguage",
+                        attrs: { name: "choosedLanguageId" }
+                      },
+                      [
+                        _c("option", { attrs: { value: "" } }, [
+                          _vm._v("言語を選択してください")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.languages, function(language) {
+                          return _c(
+                            "option",
+                            {
+                              key: language.id,
+                              domProps: { value: "" + language.id }
+                            },
+                            [_vm._v(_vm._s(language.name))]
+                          )
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        ref: "selectExperiencePeriodLanguage",
+                        attrs: { name: "choosedExperiencePeriodId" }
+                      },
+                      [
+                        _c("option", { attrs: { value: "" } }, [
+                          _vm._v("期間を選択してください")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.experiencePeriods, function(
+                          experiencePeriod
+                        ) {
+                          return _c(
+                            "option",
+                            {
+                              key: experiencePeriod.id,
+                              domProps: { value: "" + experiencePeriod.id }
+                            },
+                            [_vm._v(_vm._s(experiencePeriod.name))]
+                          )
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c("button", { on: { click: _vm.appendSkillLanguage } }, [
+                      _vm._v("追加")
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("section", { staticClass: "skill" }, [
+            _c("h3", { staticClass: "skill__title" }, [
+              _vm._v("フレームワーク")
+            ]),
+            _vm._v(" "),
+            _c(
+              "ul",
+              { staticClass: "skillColumns" },
+              _vm._l(_vm.frameworkExperiences, function(frameworkExperience) {
+                return _c("li", { key: frameworkExperience.id }, [
+                  _c("div", { staticClass: "header" }, [
+                    _c("p", { staticClass: "frameworkName" }, [
+                      _vm._v(_vm._s(frameworkExperience.framework.name))
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "iconTrash",
+                      attrs: {
+                        src: "/images/trash_icon.png",
+                        alt: "iconTrash"
+                      },
+                      on: {
+                        click: function($event) {
+                          return _vm.deleteExperienceFramework(
+                            frameworkExperience.id
+                          )
+                        }
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "ul",
+                    { staticClass: "skillChooses" },
+                    _vm._l(_vm.experiencePeriods, function(experiencePeriod) {
+                      return _c("li", { key: experiencePeriod.id }, [
+                        _c("input", {
+                          attrs: {
+                            type: "radio",
+                            id: "experience_period_" + experiencePeriod.id,
+                            name:
+                              "experience_period_" +
+                              frameworkExperience.framework.name
+                          },
+                          domProps: {
+                            value: "" + experiencePeriod.id,
+                            checked:
+                              experiencePeriod.id ==
+                              frameworkExperience.experience_period_id
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "label",
+                          {
+                            attrs: {
+                              for: "experience_period_" + experiencePeriod.id
+                            }
+                          },
+                          [_vm._v(_vm._s(experiencePeriod.name))]
+                        )
+                      ])
+                    }),
+                    0
+                  )
+                ])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "switch" }, [
+              _c(
+                "button",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: !_vm.canAppendSkillFramework,
+                      expression: "!canAppendSkillFramework"
+                    }
+                  ],
+                  on: { click: _vm.enableAppendSkillFramework }
+                },
+                [_vm._v("+フレームワークを追加する")]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.canAppendSkillFramework,
+                      expression: "canAppendSkillFramework"
+                    }
+                  ],
+                  staticClass: "skillAppend"
+                },
+                [
+                  _c("p", { staticClass: "skillAppend--title" }, [
+                    _vm._v("フレームワークの追加")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "skillAppend--form" }, [
+                    _c(
+                      "select",
+                      { ref: "selectFramework" },
+                      [
+                        _c("option", { attrs: { value: "" } }, [
+                          _vm._v("フレームワークを選択してください")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.frameworks, function(framework) {
+                          return _c(
+                            "option",
+                            {
+                              key: framework.id,
+                              domProps: { value: "" + framework.id }
+                            },
+                            [_vm._v(_vm._s(framework.name))]
+                          )
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        ref: "selectExperiencePeriodFramework",
+                        attrs: { name: "choosedExperiencePeriodId" }
+                      },
+                      [
+                        _c("option", { attrs: { value: "" } }, [
+                          _vm._v("期間を選択してください")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.experiencePeriods, function(
+                          experiencePeriod
+                        ) {
+                          return _c(
+                            "option",
+                            {
+                              key: experiencePeriod.id,
+                              domProps: { value: "" + experiencePeriod.id }
+                            },
+                            [_vm._v(_vm._s(experiencePeriod.name))]
+                          )
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c("button", { on: { click: _vm.appendSkillFramework } }, [
+                      _vm._v("追加")
+                    ])
+                  ])
+                ]
+              )
+            ])
           ])
-        ])
-      ])
+        ],
+        1
+      )
     ],
     1
   )
@@ -3776,6 +4169,170 @@ var render = function() {
     }),
     0
   )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/ts/components/parts/SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "skill" }, [
+    _c("h3", { staticClass: "skill__title" }, [_vm._v(_vm._s(_vm.kindName))]),
+    _vm._v(" "),
+    _c(
+      "ul",
+      { staticClass: "skillColumns" },
+      _vm._l(_vm.experiences, function(experience) {
+        return _c("li", { key: experience.id }, [
+          _c("div", { staticClass: "header" }, [
+            _c("p", { staticClass: "languageName" }, [
+              _vm._v(_vm._s(experience.language.name))
+            ]),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "iconTrash",
+              attrs: { src: "/images/trash_icon.png", alt: "iconTrash" },
+              on: {
+                click: function($event) {
+                  return _vm.deleteExperienceLanguage(experience.id)
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c(
+            "ul",
+            { staticClass: "skillChooses" },
+            _vm._l(_vm.experiencePeriods, function(experiencePeriod) {
+              return _c("li", { key: experiencePeriod.id }, [
+                _c("input", {
+                  attrs: {
+                    type: "radio",
+                    id: "experience_period_" + experiencePeriod.id,
+                    name: "experience_period_" + experience.language.name
+                  },
+                  domProps: {
+                    value: "" + experiencePeriod.id,
+                    checked:
+                      experiencePeriod.id == experience.experience_period_id
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    attrs: { for: "experience_period_" + experiencePeriod.id }
+                  },
+                  [_vm._v(_vm._s(experiencePeriod.name))]
+                )
+              ])
+            }),
+            0
+          )
+        ])
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "switch" }, [
+      _c(
+        "button",
+        {
+          directives: [
+            {
+              name: "show",
+              rawName: "v-show",
+              value: !_vm.canAppendSkill,
+              expression: "!canAppendSkill"
+            }
+          ],
+          on: { click: _vm.enableAppendSkill }
+        },
+        [_vm._v("+" + _vm._s(_vm.kindName) + "を追加する")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          directives: [
+            {
+              name: "show",
+              rawName: "v-show",
+              value: _vm.canAppendSkill,
+              expression: "canAppendSkill"
+            }
+          ],
+          staticClass: "skillAppend"
+        },
+        [
+          _c("p", { staticClass: "skillAppend--title" }, [
+            _vm._v(_vm._s(_vm.kindName) + "の追加")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "skillAppend--form" }, [
+            _c(
+              "select",
+              { ref: "selectSkill" },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v(_vm._s(_vm.kindName) + "を選択してください")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.skills, function(skill) {
+                  return _c(
+                    "option",
+                    { key: skill.id, domProps: { value: "" + skill.id } },
+                    [_vm._v(_vm._s(skill.name))]
+                  )
+                })
+              ],
+              2
+            ),
+            _vm._v(" "),
+            _c(
+              "select",
+              { ref: "selectExperiencePeriod" },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("期間を選択してください")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.experiencePeriods, function(experiencePeriod) {
+                  return _c(
+                    "option",
+                    {
+                      key: experiencePeriod.id,
+                      domProps: { value: "" + experiencePeriod.id }
+                    },
+                    [_vm._v(_vm._s(experiencePeriod.name))]
+                  )
+                })
+              ],
+              2
+            ),
+            _vm._v(" "),
+            _c("button", { on: { click: _vm.appendSkill } }, [_vm._v("追加")])
+          ])
+        ]
+      )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -18877,12 +19434,13 @@ const vue_1 = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js
 const bootstrap_1 = __webpack_require__(/*! ./bootstrap */ "./resources/ts/bootstrap.ts");
 const EmployeesComponent_vue_1 = __webpack_require__(/*! ./components/EmployeesComponent.vue */ "./resources/ts/components/EmployeesComponent.vue");
 const EmployeeComponent_vue_1 = __webpack_require__(/*! ./components/EmployeeComponent.vue */ "./resources/ts/components/EmployeeComponent.vue");
+const SkillComponent_vue_1 = __webpack_require__(/*! ./components/parts/SkillComponent.vue */ "./resources/ts/components/parts/SkillComponent.vue");
 const vue_notification_1 = __webpack_require__(/*! vue-notification */ "./node_modules/vue-notification/dist/index.js");
 bootstrap_1.default();
 vue_1.default.use(vue_notification_1.default);
 new vue_1.default({
     el: '#app',
-    components: { EmployeesComponent: EmployeesComponent_vue_1.default, EmployeeComponent: EmployeeComponent_vue_1.default },
+    components: { EmployeesComponent: EmployeesComponent_vue_1.default, EmployeeComponent: EmployeeComponent_vue_1.default, SkillComponent: SkillComponent_vue_1.default },
 });
 
 
@@ -19090,6 +19648,114 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EmployeesComponent_vue_vue_type_template_id_7dc5d459_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EmployeesComponent_vue_vue_type_template_id_7dc5d459_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/ts/components/parts/SkillComponent.vue":
+/*!**********************************************************!*\
+  !*** ./resources/ts/components/parts/SkillComponent.vue ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SkillComponent_vue_vue_type_template_id_4eff1a5c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true& */ "./resources/ts/components/parts/SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true&");
+/* harmony import */ var _SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SkillComponent.vue?vue&type=script&lang=ts& */ "./resources/ts/components/parts/SkillComponent.vue?vue&type=script&lang=ts&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true& */ "./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true&");
+/* harmony import */ var _SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true& */ "./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__["default"])(
+  _SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SkillComponent_vue_vue_type_template_id_4eff1a5c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SkillComponent_vue_vue_type_template_id_4eff1a5c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "4eff1a5c",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/ts/components/parts/SkillComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/ts/components/parts/SkillComponent.vue?vue&type=script&lang=ts&":
+/*!***********************************************************************************!*\
+  !*** ./resources/ts/components/parts/SkillComponent.vue?vue&type=script&lang=ts& ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_ts_loader_index_js_ref_5_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/ts-loader??ref--5!../../../../node_modules/vue-loader/lib??vue-loader-options!./SkillComponent.vue?vue&type=script&lang=ts& */ "./node_modules/ts-loader/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=script&lang=ts&");
+/* harmony import */ var _node_modules_ts_loader_index_js_ref_5_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_ts_loader_index_js_ref_5_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_ts_loader_index_js_ref_5_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_ts_loader_index_js_ref_5_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_ts_loader_index_js_ref_5_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_script_lang_ts___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true& ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--9-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--9-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=0&id=4eff1a5c&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_0_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true& ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--9-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--9-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=style&index=1&id=4eff1a5c&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_2_node_modules_sass_loader_dist_cjs_js_ref_9_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_style_index_1_id_4eff1a5c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/ts/components/parts/SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/ts/components/parts/SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true& ***!
+  \*****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_template_id_4eff1a5c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/ts/components/parts/SkillComponent.vue?vue&type=template&id=4eff1a5c&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_template_id_4eff1a5c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SkillComponent_vue_vue_type_template_id_4eff1a5c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
