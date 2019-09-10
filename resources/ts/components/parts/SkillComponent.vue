@@ -1,15 +1,15 @@
 <template>
   <section class="skill">
-    <h3 class="skill__title">{{ kindName }}</h3>
+    <h3 class="skill__title">{{ kindNameJp }}</h3>
     <ul class="skillColumns">
       <li v-for="experience in experiences" v-bind:key="experience.id">
         <div class="header">
-          <p class="languageName">{{ experience.language.name }}</p>
+          <p class="skillName">{{ experience[kindName].name }}</p>
           <img
             class="iconTrash"
             :src="'/images/trash_icon.png'"
             alt="iconTrash"
-            @click="deleteExperienceLanguage(experience.id)"
+            @click="deleteExperience(experience.id)"
           />
         </div>
         <ul class="skillChooses">
@@ -17,7 +17,7 @@
             <input
               type="radio"
               :id="`experience_period_${experiencePeriod.id}`"
-              :name="`experience_period_${experience.language.name}`"
+              :name="`experience_period_${experience[kindName].name}`"
               v-bind:value="`${experiencePeriod.id}`"
               :checked="experiencePeriod.id == experience.experience_period_id"
             />
@@ -27,12 +27,12 @@
       </li>
     </ul>
     <div class="switch">
-      <button v-show="!canAppendSkill" @click="enableAppendSkill">+{{ kindName }}を追加する</button>
+      <button v-show="!canAppendSkill" @click="enableAppendSkill">+{{ kindNameJp }}を追加する</button>
       <div class="skillAppend" v-show="canAppendSkill">
-        <p class="skillAppend--title">{{ kindName }}の追加</p>
+        <p class="skillAppend--title">{{ kindNameJp }}の追加</p>
         <div class="skillAppend--form">
           <select ref="selectSkill">
-            <option value>{{ kindName }}を選択してください</option>
+            <option value>{{ kindNameJp }}を選択してください</option>
             <option
               :value="`${skill.id}`"
               v-for="skill in skills"
@@ -75,6 +75,7 @@ export default class SkillComponent extends Vue {
 
   @Prop() private experiences!: any;
   @Prop() private kindName!: string;
+  @Prop() private kindNameJp!: string;
   @Prop() private skills!: any;
 
   private enableAppendSkill() {
@@ -87,6 +88,10 @@ export default class SkillComponent extends Vue {
       refSelectSkill: this.$refs.selectSkill,
       refSelectExperiencePeriod: this.$refs.selectExperiencePeriod
     };
+  }
+  @Emit("deleteExperience")
+  public deleteExperience(id: number) {
+    return id;
   }
 }
 </script>
@@ -117,7 +122,7 @@ ul.skillColumns {
     .header {
       display: flex;
       align-items: center;
-      .languageName {
+      .skillName {
         margin-right: 8px;
       }
     }

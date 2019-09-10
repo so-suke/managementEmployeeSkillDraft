@@ -59,12 +59,11 @@ class EmployeeController extends Controller
             ->get();
 
         $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
-            ->join('frameworks', 'frameworks.id', '=', 'framework_experiences.framework_id')
-            ->orderBy('frameworks.name', 'asc')
             ->with('framework')
             ->with('experiencePeriod')
             ->get();
 
+        $frameworkExperiences = $frameworkExperiences->sortBy('framework.name')->values();
         return response()->json([
             'employee' => $employee,
             'languageExperiences' => $languageExperiences,

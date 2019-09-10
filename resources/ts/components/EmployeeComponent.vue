@@ -15,121 +15,24 @@
     <div class="skills">
       <h2 class="skills__title">スキル一覧</h2>
 
-      <skill-component :experiences="languageExperiences" kindName="言語" :skills="languages" @appendSkill="appendSkillLanguage"></skill-component>
+      <skill-component
+        :experiences="languageExperiences"
+        kindName="language"
+        kindNameJp="言語"
+        :skills="languages"
+        @appendSkill="appendSkillLanguage"
+        @deleteExperience="deleteExperienceLanguage"
+      ></skill-component>
 
-      <section class="skill">
-        <h3 class="skill__title">言語</h3>
-        <ul class="skillColumns">
-          <li v-for="languageExperience in languageExperiences" v-bind:key="languageExperience.id">
-            <div class="header">
-              <p class="languageName">{{ languageExperience.language.name }}</p>
-              <img
-                class="iconTrash"
-                :src="'/images/trash_icon.png'"
-                alt="iconTrash"
-                @click="deleteExperienceLanguage(languageExperience.id)"
-              />
-            </div>
-            <ul class="skillChooses">
-              <li v-for="experiencePeriod in experiencePeriods" v-bind:key="experiencePeriod.id">
-                <input
-                  type="radio"
-                  :id="`experience_period_${experiencePeriod.id}`"
-                  :name="`experience_period_${languageExperience.language.name}`"
-                  v-bind:value="`${experiencePeriod.id}`"
-                  :checked="experiencePeriod.id == languageExperience.experience_period_id"
-                />
-                <label :for="`experience_period_${experiencePeriod.id}`">{{experiencePeriod.name}}</label>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <div class="switch">
-          <button v-show="!canAppendSkillLanguage" @click="enableAppendSkillLanguage">+言語を追加する</button>
-          <div class="skillAppend" v-show="canAppendSkillLanguage">
-            <p class="skillAppend--title">言語の追加</p>
-            <div class="skillAppend--form">
-              <select name="choosedLanguageId" ref="selectLanguage">
-                <option value>言語を選択してください</option>
-                <option
-                  :value="`${language.id}`"
-                  v-for="language in languages"
-                  v-bind:key="language.id"
-                >{{ language.name }}</option>
-              </select>
-              <select name="choosedExperiencePeriodId" ref="selectExperiencePeriodLanguage">
-                <option value>期間を選択してください</option>
-                <option
-                  :value="`${experiencePeriod.id}`"
-                  v-for="experiencePeriod in experiencePeriods"
-                  v-bind:key="experiencePeriod.id"
-                >{{ experiencePeriod.name }}</option>
-              </select>
-              <button @click="appendSkillLanguage">追加</button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <skill-component
+        :experiences="frameworkExperiences"
+        kindName="framework"
+        kindNameJp="フレームワーク"
+        :skills="frameworks"
+        @appendSkill="appendSkillFramework"
+        @deleteExperience="deleteExperienceFramework"
+      ></skill-component>
 
-      <section class="skill">
-        <h3 class="skill__title">フレームワーク</h3>
-        <ul class="skillColumns">
-          <li
-            v-for="frameworkExperience in frameworkExperiences"
-            v-bind:key="frameworkExperience.id"
-          >
-            <div class="header">
-              <p class="frameworkName">{{ frameworkExperience.framework.name }}</p>
-              <img
-                class="iconTrash"
-                :src="'/images/trash_icon.png'"
-                alt="iconTrash"
-                @click="deleteExperienceFramework(frameworkExperience.id)"
-              />
-            </div>
-            <ul class="skillChooses">
-              <li v-for="experiencePeriod in experiencePeriods" v-bind:key="experiencePeriod.id">
-                <input
-                  type="radio"
-                  :id="`experience_period_${experiencePeriod.id}`"
-                  :name="`experience_period_${frameworkExperience.framework.name}`"
-                  v-bind:value="`${experiencePeriod.id}`"
-                  :checked="experiencePeriod.id == frameworkExperience.experience_period_id"
-                />
-                <label :for="`experience_period_${experiencePeriod.id}`">{{experiencePeriod.name}}</label>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <div class="switch">
-          <button
-            v-show="!canAppendSkillFramework"
-            @click="enableAppendSkillFramework"
-          >+フレームワークを追加する</button>
-          <div class="skillAppend" v-show="canAppendSkillFramework">
-            <p class="skillAppend--title">フレームワークの追加</p>
-            <div class="skillAppend--form">
-              <select ref="selectFramework">
-                <option value>フレームワークを選択してください</option>
-                <option
-                  :value="`${framework.id}`"
-                  v-for="framework in frameworks"
-                  v-bind:key="framework.id"
-                >{{ framework.name }}</option>
-              </select>
-              <select name="choosedExperiencePeriodId" ref="selectExperiencePeriodFramework">
-                <option value>期間を選択してください</option>
-                <option
-                  :value="`${experiencePeriod.id}`"
-                  v-for="experiencePeriod in experiencePeriods"
-                  v-bind:key="experiencePeriod.id"
-                >{{ experiencePeriod.name }}</option>
-              </select>
-              <button @click="appendSkillFramework">追加</button>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   </div>
 </template>
@@ -153,10 +56,16 @@ export default class ExampleComponent extends Vue {
   languageExperiences: any[] = [];
   frameworkExperiences: any[] = [];
 
-  toJpMap: any = new Map([
-    ["language", "言語"],
-    ["framework", "フレームワーク"]
-  ]);
+  skillKind: any = {
+    language: {
+      en: "language",
+      jp: "言語"
+    },
+    framework: {
+      en: "framework",
+      jp: "フレームワーク"
+    }
+  };
 
   readonly experienceSkillKindNames: any = {
     language: "language",
@@ -186,19 +95,17 @@ export default class ExampleComponent extends Vue {
     this.canAppendSkillFramework = true;
   }
 
-  private deleteExperience(id: number, url: string) {
+  private deleteExperience(id: number, pathDelete: string) {
     window.axios
-      .delete(`/api/languageExperiences/${id}`)
+      .delete(pathDelete)
       .then(response => {
-        // とりあえずメッセージ見る
-        console.log(response);
         this.$notify({
           group: "manipulation",
           type: "success",
           title: "Success Delete Language Expression",
           text: (<any>response).message
         });
-        // 最後、全て読み込み直し
+        // 全て再読み込み
         this.getInitDatas();
       })
       .catch(function(error) {
@@ -227,9 +134,9 @@ export default class ExampleComponent extends Vue {
       refSelectSkill.classList.add("error");
       refSelectExperiencePeriod.classList.add("error");
       console.warn(
-        `あれ?${this.toJpMap.get(
-          experienceSkillKindName
-        )}または期間が入力されてない...`
+        `あれ?${
+          this.skillKind[experienceSkillKindName].jp
+        }または期間が入力されてない...`
       );
       return;
     }
@@ -273,10 +180,10 @@ export default class ExampleComponent extends Vue {
     );
   }
 
-  private appendSkillFramework() {
+  private appendSkillFramework(payload: any) {
     this.appendSkill(
-      this.$refs.selectFramework as HTMLSelectElement,
-      this.$refs.selectExperiencePeriodFramework as HTMLSelectElement,
+      payload.refSelectSkill as HTMLSelectElement,
+      payload.refSelectExperiencePeriod as HTMLSelectElement,
       this.frameworkExperiences,
       this.experienceSkillKindNames.framework,
       `/api/frameworkExperiences`
