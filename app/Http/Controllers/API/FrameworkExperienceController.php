@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\FrameworkExperience;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Log;
 
 class FrameworkExperienceController extends Controller
 {
@@ -41,12 +42,6 @@ class FrameworkExperienceController extends Controller
      */
     public function show($id)
     {
-        // $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
-        //     ->with('framework')
-        //     ->orderBy('framework.name', 'asc')
-        //     ->with('experiencePeriod')
-        //     ->toSql();
-        // Log::debug($frameworkExperiences);
         $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
             ->with('framework')
             ->with('experiencePeriod')
@@ -57,6 +52,17 @@ class FrameworkExperienceController extends Controller
         ]);
     }
 
+    public function existsFramework($employeeId, $frameworkId)
+    {
+        $exists = FrameworkExperience::where('employee_id', $employeeId)
+            ->where('framework_id', $frameworkId)
+            ->exists();
+
+        return response()->json([
+            'exists' => $exists
+        ]);
+    }
+
     /**
      * Update the specified resource in storage.
      *
@@ -64,9 +70,14 @@ class FrameworkExperienceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, FrameworkExperience $frameworkExperience)
     {
-        //
+        $frameworkExperience->experience_period_id = $request->experience_period_id;
+        $frameworkExperience->save();
+
+        return response()->json([
+            'message' => 'success update.'
+        ]);
     }
 
     /**

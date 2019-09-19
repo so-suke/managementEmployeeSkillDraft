@@ -11,8 +11,49 @@
   </ul>
 </template>
 
+<script lang="ts">
+import { Component, Prop, Vue, Watch } from "vue-property-decorator";
+import { optionModule } from "../store/module/Option";
+import { async } from "q";
+
+@Component
+export default class ExampleComponent extends Vue {
+  employees: any[] = [];
+
+  private mounted(): void {
+    this.fetchData();
+  }
+
+  private fetchData() {
+    window.axios
+      .get(`/api/employees`)
+      .then(res => {
+        console.log(res.data);
+        this.employees = res.data;
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  }
+
+  get options() {
+    return optionModule.options;
+  }
+
+  @Watch("currentPage")
+  onCurrentPageChanged(value: any) {
+    this.fetchData();
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 @import "~@/variables/_variables.scss";
+.myContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .employees {
   width: 40%;
   margin: 0 auto;
@@ -45,29 +86,3 @@
   }
 }
 </style>
-
-<script lang="ts">
-import { Component, Prop, Vue, Watch } from "vue-property-decorator";
-import { optionModule } from "../store/module/Option";
-
-@Component
-export default class ExampleComponent extends Vue {
-  employees: any[] = [];
-
-  private mounted(): void {
-    window.axios
-      .get("api/employees")
-      .then(res => {
-        console.log(res.data);
-        this.employees = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }
-
-  get options() {
-    return optionModule.options;
-  }
-}
-</script>

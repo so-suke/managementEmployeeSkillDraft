@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Employee;
-use App\ExperiencePeriod;
 use App\Framework;
 use App\Language;
 use App\LanguageExperience;
+use App\Other;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Log;
 
 class EmployeeController extends Controller
 {
@@ -89,7 +88,8 @@ class EmployeeController extends Controller
 
         $languages = Language::orderBy('name', 'asc')->get();
         $frameworks = Framework::orderBy('name', 'asc')->get();
-        return view('employee', compact('employee', 'languages', 'frameworks'));
+        $others = Other::orderBy('name', 'asc')->get();
+        return view('employee', compact('employee', 'languages', 'frameworks', 'others'));
     }
 
     /**

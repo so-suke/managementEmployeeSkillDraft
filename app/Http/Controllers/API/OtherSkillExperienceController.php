@@ -4,10 +4,9 @@ namespace App\Http\Controllers\API;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\LanguageExperience;
-use Illuminate\Support\Facades\Log;
+use App\OtherSkillExperience;
 
-class LanguageExperienceController extends Controller
+class OtherSkillExperienceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +14,10 @@ class LanguageExperienceController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    { }
+    {
+        //
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -24,7 +26,7 @@ class LanguageExperienceController extends Controller
      */
     public function store(Request $request)
     {
-        LanguageExperience::create($request->all());
+        OtherSkillExperience::create($request->all());
 
         return response()->json([
             'message' => 'success store.'
@@ -39,34 +41,23 @@ class LanguageExperienceController extends Controller
      */
     public function show($id)
     {
-        $languageExperiences = LanguageExperience::where('employee_id', $id)
-            ->orderBy('language_id', 'asc')
-            ->with('language')
+        $otherSkillExperiences = LanguageExperience::where('employee_id', $id)
+            ->orderBy('other_skill_id', 'asc')
+            ->with('otherSkill')
             ->with('experiencePeriod')
             ->get();
 
         return response()->json([
-            'languageExperiences' => $languageExperiences
+            'otherSkillExperiences' => $otherSkillExperiences
         ]);
     }
 
-    public function exists($employeeId, $languageExperienceId)
+    public function exists($employeeId, $otherSkillExperienceId)
     {
-        $exists = LanguageExperience::where('employee_id', $employeeId)->where('id', $languageExperienceId)->exists();
+        $exists = OtherSkillExperience::where('employee_id', $employeeId)->where('id', $otherSkillExperienceId)->exists();
         return response()->json([
             'exists' => $exists,
             'message' => $exists,
-        ]);
-    }
-
-    public function existsLanguage($employeeId, $languageId)
-    {
-        $exists = LanguageExperience::where('employee_id', $employeeId)
-            ->where('language_id', $languageId)
-            ->exists();
-
-        return response()->json([
-            'exists' => $exists
         ]);
     }
 
@@ -77,10 +68,10 @@ class LanguageExperienceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, LanguageExperience $languageExperience)
+    public function update(Request $request, OtherSkillExperience $otherSkillExperience)
     {
-        $languageExperience->experience_period_id = $request->experience_period_id;
-        $languageExperience->save();
+        $otherSkillExperience->experience_period_id = $request->experience_period_id;
+        $otherSkillExperience->save();
 
         return response()->json([
             'message' => 'success update.'
@@ -93,9 +84,9 @@ class LanguageExperienceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(LanguageExperience $languageExperience)
+    public function destroy(OtherSkillExperience $otherSkillExperience)
     {
-        $languageExperience->delete();
+        $otherSkillExperience->delete();
         return response()->json([
             'message' => 'success destroy.'
         ]);

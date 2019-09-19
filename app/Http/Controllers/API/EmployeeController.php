@@ -7,6 +7,7 @@ use App\FrameworkExperience;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\LanguageExperience;
+use App\OtherExperience;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
@@ -19,6 +20,8 @@ class EmployeeController extends Controller
      */
     public function index()
     {
+        // return Employee::select(DB::raw('CONCAT(name_last, " ", name_first) as full_name, gender'))
+        //     ->paginate(3);
         return Employee::get();
     }
 
@@ -56,19 +59,24 @@ class EmployeeController extends Controller
             ->orderBy('language_id', 'asc')
             ->with('language')
             ->with('experiencePeriod')
-            ->get();
+            ->get()
+            ->sortBy('language.name')
+            ->values();
 
         $frameworkExperiences = FrameworkExperience::where('employee_id', $id)
             ->with('framework')
             ->with('experiencePeriod')
-            ->get();
+            ->get()
+            ->sortBy('framework.name')
+            ->values();
 
-        $frameworkExperiences = $frameworkExperiences->sortBy('framework.name')->values();
-        return response()->json([
-            'employee' => $employee,
-            'languageExperiences' => $languageExperiences,
-            'frameworkExperiences' => $frameworkExperiences
-        ]);
+        $otherExperiences = OtherExperience::where('employee_id', $id)
+            ->with('other')
+            ->with('experiencePeriod')
+            ->get()
+            ->sortBy('other.name')
+            ->values();
+        return response()->json(compact('employee', 'languageExperiences', 'frameworkExperiences', 'otherExperiences'));
     }
 
     /**

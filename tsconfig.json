@@ -12,7 +12,7 @@
     // "resources/**/*.ts",
     "resources/ts/*.ts",
     "resources/ts/store/*.ts",
-    "resources/ts/store/**/*.ts",
+    "resources/ts/store/**/*.ts", "resources/ts/myresources/strings.ts",
   ],
   "exclude": [
     "node_modules"

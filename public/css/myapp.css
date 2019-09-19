@@ -27,3 +27,66 @@ a:hover {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+  border: 0px;
+  background-color: #fff;
+}
+
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #fff;
+}
+
+.myNotifications {
+  padding: 10px;
+  margin: 0 5px 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #44A4FC;
+  border-left: 5px solid #187FE7;
+}
+
+.myNotifications.warn {
+  background: #ffb648;
+  border-left-color: #f48a06;
+}
+
+.myNotifications.error {
+  background: #E54D42;
+  border-left-color: #B82E24;
+}
+
+.myNotifications.success {
+  background: #68CD86;
+  border-left-color: #42A85F;
+}
+
+.ghostButton {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid;
+  padding: 4px 8px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghostButton--blue {
+  color: #4682b4;
+  border-color: #4682b4;
+}
+
+.ghostButton--blue:hover,
+.ghostButton--blue:active {
+  background: #4682b4;
+  color: #fff;
+  border-color: #4682b4;
+}
+
+.ghostButton img {
+  width: 60%;
+}
+
